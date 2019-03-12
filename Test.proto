@@ -1,0 +1,17 @@
+﻿syntax = "proto3";
+
+import "google/protobuf/wrappers.proto";
+
+message TestResponse {
+	string user = 1;
+}
+
+message CreateAccountUserRequest {
+	string user = 1;
+}
+
+service Account {
+
+	// Creates a user
+	rpc CreateUser(CreateAccountUserRequest) returns (TestResponse) {}
+}
