@@ -1,7 +1,5 @@
 ﻿syntax = "proto3";
 
-import "google/protobuf/wrappers.proto";
-
 message TestResponse {
 	string user = 1;
 }
