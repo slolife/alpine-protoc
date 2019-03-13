@@ -1,6 +1,7 @@
-Sample repository for the following grpc issue and for the following StackOverflow question:
+Sample repository for the following grpc issue and StackOverflow question:
 
 https://github.com/grpc/grpc/issues/18338
+
 https://stackoverflow.com/questions/55128227/cannot-run-grpc-protoc-in-alpine-based-dotnet-sdk
 
 # Branches
